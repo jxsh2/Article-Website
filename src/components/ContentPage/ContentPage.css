@@ -1,0 +1,103 @@
+@import "../../variables/variable.css";
+
+.content-page {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 98px 418px;
+  background-image: url("../../assets/backgrounds/content_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+}
+
+.content-images {
+  width: 1084px !important;
+  height: 624px !important;
+  object-fit: cover !important;
+  border: 5px solid var(--white-color);
+}
+
+.content-h4 {
+  font-size: 1.2rem !important;
+  font-weight: 500;
+  font-family: var(--font-family2) !important;
+  color: #fff5e1;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content-title {
+  position: relative;
+  font-size: 4rem !important;
+  line-height: 110% !important;
+  display: flex;
+  font-family: var(--font-family1) !important;
+  color: #c5b174 !important;
+  text-align: left;
+  align-items: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.content-article {
+  width: 100%;
+  position: relative;
+  font-size: 1.5rem;
+  line-height: 170% !important;
+  font-weight: 350 !important;
+  font-family: var(--font-family2) !important;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  height: 97px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  word-wrap: break-word;
+  white-space: pre-line;
+  margin-bottom: 10rem !important;
+}
+
+.content-divider {
+  border-top: 2px solid var(--valo-red) !important;
+  margin-bottom: 20px !important;
+  opacity: 0.8 !important;
+  background: linear-gradient(to right, var(--valo-red), #ff5e62);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.no-article {
+  font-family: "Roboto", sans-serif; /* Modern, clean font */
+  font-size: 1.5rem; /* Larger font size for prominence */
+  color: #555555; /* Neutral dark color */
+  text-align: center; /* Center the text */
+  margin: 50px 50px; /* Add space around the message */
+  padding: 50px; /* Add some padding for better spacing */
+  border: 2px dashed #cccccc; /* Lightly dashed border to draw attention */
+  border-radius: 10px; /* Soft rounded corners */
+  background-color: #f9f9f9; /* Subtle background color */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  height: 40vh;
+}
+
+.no-article:hover {
+  background-color: #eeeeee; /* Slightly darker on hover */
+  color: #333333; /* Darker text color on hover */
+  border-color: #bbbbbb; /* Darker border on hover */
+}
+
+.back-button {
+  background-color: var(--valo-red) !important;
+  color: white !important;
+  font-family: var(--font-family) !important;
+  font-size: 1.2rem !important;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #cc0000; /* Slightly darker red for hover */
+  transform: scale(1.1); /* Zoom in by 10% */
+}

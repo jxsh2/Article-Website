@@ -1,0 +1,62 @@
+@import "../../../variables/variable.css";
+
+.about-cont {
+  background-image: url("../../../assets/backgrounds/_about_.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 185px 142px 115px;
+  font-size: 24px;
+  color: #fff;
+  font-family: "Saira Condensed";
+}
+
+.about-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text {
+  width: 1084px;
+  position: relative;
+  line-height: 170%;
+  font-weight: 300;
+  overflow: hidden;
+  word-wrap: break-word;
+  font-size: 1.4rem;
+  font-family: var(--font-family2);
+  display: inline-block;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.about-rec {
+  width: 164px;
+  position: relative;
+  background-color: #fff5e1;
+  height: 14px;
+  justify-content: left;
+  transform: rotate(90deg);
+}
+
+.about-title {
+  width: 525px;
+  position: relative;
+  font-size: 90px;
+  display: flex;
+  color: var(--valo-red);
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+  height: 100%;
+  font-family: "Saira Condensed";
+}

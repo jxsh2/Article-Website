@@ -1,0 +1,203 @@
+@import "../../../variables/variable.css";
+.footer-download {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+}
+
+.footer-valorant {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+  color: var(--valo-red);
+  font-family: "Saira Condensed";
+  font-weight: bold;
+  font-size: 70px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.footer-valorant::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--valo-red);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-valorant:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.footer-valorant:hover {
+  color: var(--valo-red);
+  transform: scale(1.05);
+}
+
+.footer-valorant:active {
+  color: var(--valo-red);
+  transform: scale(1.02);
+}
+
+.footer-download-parent {
+  width: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 64px;
+}
+
+.footer-newsletter {
+  position: relative;
+  line-height: 110%;
+  color: white;
+  font-family: "Saira Condensed";
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-newsletter:hover {
+  color: var(--valo-red);
+}
+
+.footer-input {
+  width: 265px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  height: 48px;
+  padding: 10px 15px;
+  font-family: "Saira Condensed";
+  border: 2px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+.footer-input:focus {
+  border-color: var(--valo-red);
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.footer-input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+.footer-subscribe {
+  position: relative;
+  width: 170px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: var(--valo-red);
+  font-family: "Saira Condensed";
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.footer-subscribe:hover {
+  background-color: var(--valo-red);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.footer-subscribe:active {
+  background-color: var(--valo-red);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
+
+.footer-newsletter-parent {
+  width: 455px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  gap: 15px 20px;
+}
+
+.footer-x {
+  width: 717px;
+  position: relative;
+  line-height: 110%;
+  display: inline-block;
+  flex-shrink: 0;
+  color: white;
+  font-family: "Saira Condensed";
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-x:hover {
+  color: var(--valo-red);
+}
+
+.footer-facebook-parent {
+  width: 1635px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 90px;
+}
+
+.footer-frame-group {
+  width: 1635px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 125px 914px;
+}
+
+.footer-frame-parent {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 48px 142px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Saira Condensed";
+  z-index: 1000;
+  bottom: 0;
+  border-top: 1px solid var(--valo-red); /* Add a top border */
+}

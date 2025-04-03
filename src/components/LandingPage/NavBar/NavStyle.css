@@ -1,0 +1,72 @@
+@import "../../../variables/variable.css";
+
+.nav-cont {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  padding: 26px 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  position: relative;
+  gap: 5px;
+}
+
+.nav-img {
+  flex: 0 0 auto;
+  position: relative;
+  width: 58px;
+  height: 58px;
+  color: #ffffff;
+}
+
+.nav-name {
+  color: var(--valo-red);
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 100%;
+  position: relative;
+}
+
+.nav-links {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 40px;
+  position: relative;
+}
+
+.item {
+  color: var(--valo-red);
+  font-family: var(--font-family1);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.item:active {
+  transform: scale(1);
+}
