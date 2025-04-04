@@ -2,6 +2,8 @@
 
 *Description: This website features the latest news and updates about the Valorant Champions Tour. It also serves as a project to practice and apply Semantic UI components.*
 
+**🌐 [Live Demo](https://vct-dispatch.vercel.app/)**
+
 **🛠️  Tech Used**
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
